@@ -1,0 +1,7 @@
+__pycache__
+.ipynb_checkpoints
+1694_test_image.bmp
+1694_test_mask.bmp
+api-request.ipynb
+DL - testbed.ipynb
+unet_multiclass.ipynb

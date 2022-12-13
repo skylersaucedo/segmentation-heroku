@@ -3,6 +3,12 @@ import tensorflow as tf
 import json
 from model_definition import SegmentationModel
 
+"""
+references - I tried building an ML Cancer Segmentation API in 15 Minutes - Nicholas Rennotte
+https://youtu.be/aMldpZF6GBU
+https://github.com/nicknochnack/SegmentationAPI
+
+"""
 
 app = FastAPI()
 
