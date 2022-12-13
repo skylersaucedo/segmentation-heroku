@@ -4,9 +4,8 @@ import json
 from model_definition import SegmentationModel
 
 """
-references - I tried building an ML Cancer Segmentation API in 15 Minutes - Nicholas Rennotte
-https://youtu.be/aMldpZF6GBU
-https://github.com/nicknochnack/SegmentationAPI
+Deep Learning Thread Defect Detector
+Use this to create a route to send thread scan images for model prediction
 
 """
 
