@@ -12,7 +12,8 @@ Use this to create a route to send thread scan images for model prediction
 app = FastAPI()
 
 model = SegmentationModel().model
-model.load_weights('UNET_256x256_20nov_2022_final_weights.h5')
+#model.load_weights('UNET_256x256_20nov_2022_final_weights.h5')
+model.load_weights("\\checkpoints\\cp.ckpt")
 
 @app.post('/')
 
